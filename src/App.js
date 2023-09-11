@@ -4,8 +4,8 @@ import MainPage from "./components/mainPage"
 function App() {
   return (
     <div className="App">
-      {/* <MainPage></MainPage> */}
-      <Form></Form>
+      <MainPage></MainPage>
+      {/* <Form></Form> */}
     </div>
   );
 }
