@@ -57,26 +57,26 @@ export const chat = () => {
           ))} */}
 
           <div className="text-[18px] font-[600] mt-[20%]">
-          <div className="flex flex-row">
-            <p className=" ml-3  basis-3/4 cursor-pointer">
-              Delete Conversations
-            </p>
-            <span className="cursor-pointer w-[20px] mt-1 basis-1/10">
-              <img src={Del2}></img>
-            </span>
+            <div className="flex flex-row">
+              <p className=" ml-3  basis-3/4 cursor-pointer">
+                Delete Conversations
+              </p>
+              <span className="cursor-pointer w-[20px] mt-1 basis-1/10">
+                <img src={Del2}></img>
+              </span>
+            </div>
+            <div className="flex flex-row">
+                <p className="ml-3 basis-3/4 cursor-pointer logout">Logout</p>
+                <span className="cursor-pointer w-[20px] mt-1 basis-1/10 logout">
+                  <img src={Logout} alt="Logout"></img>
+                </span>
+            </div>
           </div>
-          <div className="flex flex-row">
-            <p className=" ml-3  basis-3/4 cursor-pointer">Logout</p>
-            <span className="cursor-pointer w-[20px] mt-1 basis-1/10">
-              <img src={Logout}></img>
-            </span>
+          <div>
+            <button className="w-[100%] h-[55px] mt-8 text-white border rounded-[10px] bg-[#4cb469] hover:bg-[#61d381] cursor-pointer">
+              + New chat
+            </button>
           </div>
-        </div>
-        <div>
-          <button className="w-[100%] h-[55px] mt-8 text-white border rounded-[10px] bg-[#4cb469] hover:bg-[#61d381] cursor-pointer">
-            + New chat
-          </button>
-        </div>
         </div>
       </div>
 
